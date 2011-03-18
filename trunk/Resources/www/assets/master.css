@@ -1,0 +1,24 @@
+body {
+	margin:				0px;
+	background-color:	#222222;
+}
+
+.body {
+	width: 				100%;
+	font-family: 		Helvetica;
+	margin:				0px;
+	font-size:			16pt;
+	background-color:	#222222;
+	color:				#EEEEEE;
+}
+
+.header {
+	width:				100%;
+	text-align:			center;
+	font-size:			1.7em;
+	padding:			5% 0px;
+}
+
+main {
+	width: 100%;
+}
