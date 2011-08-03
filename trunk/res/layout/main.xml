@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ads="http://schemas.android.com/apk/res/com.nojco.starman"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/llMain">  
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" android:layout_marginTop="50px" android:layout_marginBottom="50px">
+     
+    <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="a14db8bee8c86ee"
+                         ads:adSize="BANNER"/>
+    <ImageView android:id="@+id/ivStarman" 
+    android:onClick="startStop" 
+    android:layout_gravity="center_vertical|center_horizontal|center" 
+    android:clickable="true" 
+    android:hapticFeedbackEnabled="true" 
+    android:scaleType="centerInside" 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:adjustViewBounds="true"
+    android:src="@drawable/starman_static"></ImageView> 
+</LinearLayout>
+</LinearLayout>

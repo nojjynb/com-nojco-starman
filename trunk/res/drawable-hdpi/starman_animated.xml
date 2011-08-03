@@ -1,0 +1,7 @@
+ <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/starman_animated1" android:duration="100" />
+    <item android:drawable="@drawable/starman_animated2" android:duration="100" />
+    <item android:drawable="@drawable/starman_animated3" android:duration="100" />
+    <item android:drawable="@drawable/starman_animated4" android:duration="100" />
+    <item android:drawable="@drawable/starman_animated5" android:duration="100" />
+ </animation-list>
