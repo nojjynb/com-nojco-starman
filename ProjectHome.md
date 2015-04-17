@@ -1,0 +1,1 @@
+A simple phonegap app to display the Starman (Invincibility Star) and have him flash/play music when pressed/clicked.
